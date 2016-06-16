@@ -1,7 +1,7 @@
 /*page*/
 
 body {
-  max-width: 815px;
+
   background: rgba(0, 0, 0, 1);
   color: rgb(0, 0, 0);
   margin: 30px;
@@ -21,7 +21,17 @@ body {
   background: rgb(0, 0, 0);
 }
 
+#logo {
+  float: left;
+  position: relative;
+  max-width: 30%;
+}
 
+#lion {
+  float: right;
+  position relative;
+  max-width: 70%;
+}
 /* Navigation */
 
 nav {
@@ -31,11 +41,12 @@ nav {
 }
 
 nav ul {
-  max-width: 815px;
   list-style-type: none;
   display: flex;
-  background: rgba(110, 133, 159, 0.9);
-  background position: cover;
+  background: rgba(255, 17, 1, .4);
+  background: -o-linear-gradient(bottom, rgba(255, 17, 1, 1), rgba(243, 214, 23));
+  background: -webkit-linear-gradient(bottom, rgba(255, 17, 1, 1), rgba(243, 214, 23, .8));
+  background: -moz-linear-gradient(bottom, rgba(255, 17, 1, 1), rgba(243, 214, 23, .8));
 }
 
 nav li {
@@ -88,21 +99,25 @@ section {
 /* article */
 
 article {
-  position: absolute;
-  background: white;
+  float: left;
+  position: relative;
+  background: rgba(255, 255, 255, .95);
   width: 70%;
   max-width: 550px;
-  box-shadow: 0px 2px 5px grey;
+  box-shadow: 0px 4px 10px grey;
   border-radius: 12px;
   padding: 10px, 5px, 10px, 5px;
   text-align: justify;
+  margin: 0px auto;
 }
 
 div {
-  background: rgba(255, 48, 48, .4);
-  background: -o-linear-gradient(bottom, rgba(255, 48, 48, 1), rgba(255, 255, 0, .8));
-  background: -webkit-linear-gradient(bottom, rgba(255, 48, 48, 1), rgba(255, 255, 0, .8));
-  background: -moz-linear-gradient(bottom, rgba(255, 48, 48, 1), rgba(255, 255, 0, .8));
+  background: rgba(255, 17, 1, .4);
+  background: -o-linear-gradient(bottom, rgba(255, 17, 1, 1), rgba(243, 214, 23));
+  background: -webkit-linear-gradient(bottom, rgba(255, 17, 1, 1), rgba(243, 214, 23, .8));
+  background: -moz-linear-gradient(bottom, rgba(255, 17, 1, 1), rgba(243, 214, 23, .8));
+  max-width: 90%;
+  margin: 0px auto;
 }
 
 p {
@@ -118,15 +133,15 @@ p {
 
 aside {
   float: right;
-  position relative;
-  box-shadow: 0px 2px 5px #1c1a19;
-  background: rgba(0, 100, 200, 0.8);
+  position: relative;
+  box-shadow: 0px 4px 10px grey;
+  background: rgba(130, 130, 130, 0.8);
   border-radius: 5px;
   padding-left: 10 px;
   color: white;
   text-align: center;
   height: 500px;
-  width: 27%;
+  width: 30%;
   max-width: 240px text-align: justify;
 }
 
@@ -144,4 +159,9 @@ aside img {
   padding: 5px;
 }
 
+
 /*footer*/
+
+footer {
+  color: rga(255, 255, 255);
+}
