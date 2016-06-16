@@ -14,30 +14,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 #header {
   background: rgb(0, 0, 0);
+  color: white;
 }
 
-#logo {
-  float: left;
-  position: relative;
-  max-width: 30%;
-}
-
-#lion {
-  float: right;
-  position relative;
-  max-width: 70%;
-}
 /* Navigation */
 
 nav {
   position: fixed;
   color: white;
   font-size: 1.2em;
+  display: none;
+  font-style: AR Blanca;
 }
 
 nav ul {
